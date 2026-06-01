@@ -930,7 +930,8 @@ textarea:focus { outline: none; border-color: var(--primary); }
   .nav-item { flex-direction: column; font-size: .65rem; padding: 4px 8px; gap: 2px; min-width: 50px; }
   .nav-label { display: block; }
   .nav-icon { font-size: .95rem; }
-  #main-content { padding: 16px; padding-bottom: 80px; }
+  #main-content { padding: 16px; padding-top: calc(var(--top-h) + 12px); padding-bottom: 80px; }
+  #top-bar { position: fixed; top: 0; left: 0; right: 0; height: var(--top-h); z-index: 100; }
   .level-dots { display: none; }
   .top-bar-logo .logo-text { display: none; }
   .dash-sections { grid-template-columns: 1fr; }
